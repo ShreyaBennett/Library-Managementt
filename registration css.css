@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(241, 121, 8);
+    background-image: url("https://i.pinimg.com/736x/6b/e1/35/6be13526cd3189dc14f5aa8a0984647a.jpg");
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+  background-size: cover;
+  }
+  .form{
+    text-align: center;
+    font-size: 20px;
+    display:inline-block;
+    background-color: rgb(162, 157, 133);
+    width: 450px;
+    padding: 50px 50px 50px 50px;
+    color: rgb(223, 235, 167);
+    border: 5px solid rgb(7, 213, 250);
+    border-radius: 10%;
+    margin:100px 450px  ;
+  }
+  #condition{
+    color:white;
+  }
+  #condition:hover{
+    color:rgb(6, 6, 6);
+  }
+  #submit{
+    padding:5px;
+  
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  li {
+    
+    list-style: none;
+    
+    }
+    .navbar {
+  
+        display: flex;
+        
+        align-items: center;
+        
+        justify-content: space-between;
+        
+        padding: 5px;
+        
+        background-color:whitesmoke;
+        
+        color: #fff;
+        
+        }
+        .nav-links a {
+  
+        color: rgb(21, 1, 1);
+        text-decoration: none;
+  
+                     }
+  
+        
+        
+        
+        .menu {
+        
+        display: flex;
+        
+        gap: 1em;
+        
+        font-size: 18px;
+        
+        }
+        
+        .menu li:hover {
+        
+        background-color: #4f4bc1;
+        
+        border-radius: 5px;
+        
+        transition: 0.3s ease;
+        
+        }
+        
+        .menu li {
+        
+        padding: 5px 14px;
+        
+        }
+        .foot_link{
+            color: rgb(21, 1, 1);
+        text-decoration: none;
+        align-items: center;
+        }
+  
+        .logo2{
+            display: flex;
+        gap: 2em;
+        align-items: flex-end;
+        font-size: 18px;
+        align-items: center;
+        
+        }
+        .icons{
+            display: flex;
+        
+        align-items: center;
+        
+        justify-content: space-between;
+        
+        padding: 5px;
+        }
